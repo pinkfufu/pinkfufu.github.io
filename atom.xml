@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Miku Index</title>
+  
+  <subtitle>MiKuのBlog</subtitle>
+  <link href="https://pinkfufu.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://pinkfufu.github.io/"/>
+  <updated>2026-01-28T18:54:28.826Z</updated>
+  <id>https://pinkfufu.github.io/</id>
+  
+  <author>
+    <name>ZhangYao</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>初始化</title>
+    <link href="https://pinkfufu.github.io/2026/01/27/chu-shi-hua/"/>
+    <id>https://pinkfufu.github.io/2026/01/27/chu-shi-hua/</id>
+    <published>2026-01-27T17:11:16.000Z</published>
+    <updated>2026-01-28T18:54:28.826Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;标题模板&quot;&gt;&lt;a href=&quot;#标题模板&quot; class=&quot;headerlink&quot; title=&quot;标题模板&quot;&gt;&lt;/a&gt;标题模板&lt;/h1&gt;&lt;h2 id=&quot;一级目录&quot;&gt;&lt;a href=&quot;#一级目录&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="模板" scheme="https://pinkfufu.github.io/categories/%E6%A8%A1%E6%9D%BF/"/>
+    
+    
+    <category term="模板" scheme="https://pinkfufu.github.io/tags/%E6%A8%A1%E6%9D%BF/"/>
+    
+  </entry>
+  
+</feed>
