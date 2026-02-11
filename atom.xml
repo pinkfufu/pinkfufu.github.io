@@ -6,7 +6,7 @@
   <link href="https://pinkfufu.github.io/atom.xml" rel="self"/>
   
   <link href="https://pinkfufu.github.io/"/>
-  <updated>2026-02-11T14:24:04.903Z</updated>
+  <updated>2026-02-11T06:15:46.621Z</updated>
   <id>https://pinkfufu.github.io/</id>
   
   <author>
@@ -17,11 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Nacos源码分析</title>
+    <link href="https://pinkfufu.github.io/2026/02/11/nacos-yuan-ma-fen-xi/"/>
+    <id>https://pinkfufu.github.io/2026/02/11/nacos-yuan-ma-fen-xi/</id>
+    <published>2026-02-11T06:15:44.589Z</published>
+    <updated>2026-02-11T06:15:46.621Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;1-下载Nacos源码并运行&quot;&gt;&lt;a href=&quot;#1-下载Nacos源码并运行&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>初始化</title>
     <link href="https://pinkfufu.github.io/2026/01/27/chu-shi-hua/"/>
     <id>https://pinkfufu.github.io/2026/01/27/chu-shi-hua/</id>
     <published>2026-01-27T17:11:16.000Z</published>
-    <updated>2026-02-11T14:24:04.903Z</updated>
+    <updated>2026-02-11T14:24:10.092Z</updated>
     
     
       
