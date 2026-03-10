@@ -6,7 +6,7 @@
   <link href="https://pinkfufu.github.io/atom.xml" rel="self"/>
   
   <link href="https://pinkfufu.github.io/"/>
-  <updated>2026-03-09T09:45:59.906Z</updated>
+  <updated>2026-03-10T08:33:10.563Z</updated>
   <id>https://pinkfufu.github.io/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>视频下载器：基于 FastAPI + yt-dlp 的网页实现视频下载</title>
+    <link href="https://pinkfufu.github.io/2026/03/10/shi-pin-xia-zai-qi/"/>
+    <id>https://pinkfufu.github.io/2026/03/10/shi-pin-xia-zai-qi/</id>
+    <published>2026-03-10T04:25:36.000Z</published>
+    <updated>2026-03-10T08:33:10.563Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;hr&gt;
+&lt;p&gt;通过 Python 的 &lt;strong&gt;FastAPI&lt;/strong&gt; 框架，将 &lt;code&gt;yt-dlp&lt;/code&gt; 的核心能力封装为 Web 服务，实现了从链接粘贴到本地保存的全流程自动化。&lt;/p&gt;
+&lt;h2 id=&quot;🚀-核心功能&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="技术实践" scheme="https://pinkfufu.github.io/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/"/>
+    
+    
+    <category term="FastAPI" scheme="https://pinkfufu.github.io/tags/FastAPI/"/>
+    
+    <category term="yt-dlp" scheme="https://pinkfufu.github.io/tags/yt-dlp/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Bash脚本</title>
     <link href="https://pinkfufu.github.io/2026/03/06/bash-jiao-ben/"/>
     <id>https://pinkfufu.github.io/2026/03/06/bash-jiao-ben/</id>
     <published>2026-03-06T07:29:18.000Z</published>
-    <updated>2026-03-09T09:45:59.906Z</updated>
+    <updated>2026-03-10T08:33:10.562Z</updated>
     
     
       
@@ -49,7 +78,7 @@
     <link href="https://pinkfufu.github.io/2026/02/27/ti-wen-de-zhi-hui/"/>
     <id>https://pinkfufu.github.io/2026/02/27/ti-wen-de-zhi-hui/</id>
     <published>2026-02-27T07:49:37.000Z</published>
-    <updated>2026-03-09T09:45:59.906Z</updated>
+    <updated>2026-03-10T08:33:10.563Z</updated>
     
     
       
@@ -75,7 +104,7 @@
     <link href="https://pinkfufu.github.io/2026/01/27/chu-shi-hua/"/>
     <id>https://pinkfufu.github.io/2026/01/27/chu-shi-hua/</id>
     <published>2026-01-27T17:11:16.000Z</published>
-    <updated>2026-03-09T09:45:59.906Z</updated>
+    <updated>2026-03-10T08:33:10.563Z</updated>
     
     
       
