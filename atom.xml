@@ -6,7 +6,7 @@
   <link href="https://pinkfufu.github.io/atom.xml" rel="self"/>
   
   <link href="https://pinkfufu.github.io/"/>
-  <updated>2026-03-13T02:53:02.955Z</updated>
+  <updated>2026-03-13T07:35:14.805Z</updated>
   <id>https://pinkfufu.github.io/</id>
   
   <author>
@@ -17,11 +17,41 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>agent：基于 Spring Boot + LangChain4j 的医疗助手</title>
+    <link href="https://pinkfufu.github.io/2026/03/13/huo-gu-xiao-zhi/"/>
+    <id>https://pinkfufu.github.io/2026/03/13/huo-gu-xiao-zhi/</id>
+    <published>2026-03-13T05:22:00.000Z</published>
+    <updated>2026-03-13T07:35:14.805Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;hr&gt;
+&lt;h1 id=&quot;SpringBoot-3-LangChain4j-1-10-0-的医疗-AI-助手实战&quot;&gt;&lt;a href=&quot;#SpringBoot-3-LangChain4j-1-10-0-的医疗-AI-助手实战&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="技术实践" scheme="https://pinkfufu.github.io/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/"/>
+    
+    
+    <category term="LangChain4j" scheme="https://pinkfufu.github.io/tags/LangChain4j/"/>
+    
+    <category term="RAG" scheme="https://pinkfufu.github.io/tags/RAG/"/>
+    
+    <category term="pinecone向量存储" scheme="https://pinkfufu.github.io/tags/pinecone%E5%90%91%E9%87%8F%E5%AD%98%E5%82%A8/"/>
+    
+  </entry>
+  
+  <entry>
     <title>视频下载器：基于 FastAPI + yt-dlp 的网页实现视频下载</title>
     <link href="https://pinkfufu.github.io/2026/03/10/shi-pin-xia-zai-qi/"/>
     <id>https://pinkfufu.github.io/2026/03/10/shi-pin-xia-zai-qi/</id>
     <published>2026-03-10T04:25:36.000Z</published>
-    <updated>2026-03-13T02:53:02.955Z</updated>
+    <updated>2026-03-13T07:35:14.805Z</updated>
     
     
       
@@ -50,7 +80,7 @@
     <link href="https://pinkfufu.github.io/2026/03/06/bash-jiao-ben/"/>
     <id>https://pinkfufu.github.io/2026/03/06/bash-jiao-ben/</id>
     <published>2026-03-06T07:29:18.000Z</published>
-    <updated>2026-03-13T02:53:02.955Z</updated>
+    <updated>2026-03-13T07:35:14.805Z</updated>
     
     
       
@@ -78,7 +108,7 @@
     <link href="https://pinkfufu.github.io/2026/02/27/ti-wen-de-zhi-hui/"/>
     <id>https://pinkfufu.github.io/2026/02/27/ti-wen-de-zhi-hui/</id>
     <published>2026-02-27T07:49:37.000Z</published>
-    <updated>2026-03-13T02:53:02.955Z</updated>
+    <updated>2026-03-13T07:35:14.805Z</updated>
     
     
       
@@ -104,7 +134,7 @@
     <link href="https://pinkfufu.github.io/2026/01/27/chu-shi-hua/"/>
     <id>https://pinkfufu.github.io/2026/01/27/chu-shi-hua/</id>
     <published>2026-01-27T17:11:16.000Z</published>
-    <updated>2026-03-13T02:53:02.955Z</updated>
+    <updated>2026-03-13T07:35:14.805Z</updated>
     
     
       
