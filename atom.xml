@@ -6,7 +6,7 @@
   <link href="https://pinkfufu.github.io/atom.xml" rel="self"/>
   
   <link href="https://pinkfufu.github.io/"/>
-  <updated>2026-04-28T06:32:57.485Z</updated>
+  <updated>2026-05-03T03:18:26.356Z</updated>
   <id>https://pinkfufu.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>喵喵日记：记录一些私人日常</title>
+    <title>喵喵日记：记录一些日常</title>
     <link href="https://pinkfufu.github.io/2026/04/24/miao-miao-ri-ji/"/>
     <id>https://pinkfufu.github.io/2026/04/24/miao-miao-ri-ji/</id>
     <published>2026-04-24T16:05:39.000Z</published>
-    <updated>2026-04-28T06:32:57.485Z</updated>
+    <updated>2026-05-03T03:18:26.356Z</updated>
     
     
     
@@ -34,96 +34,11 @@
   </entry>
   
   <entry>
-    <title>agent：基于 Spring Boot + LangChain4j 的医疗助手</title>
-    <link href="https://pinkfufu.github.io/2026/03/13/huo-gu-xiao-zhi/"/>
-    <id>https://pinkfufu.github.io/2026/03/13/huo-gu-xiao-zhi/</id>
-    <published>2026-03-13T05:22:00.000Z</published>
-    <updated>2026-04-28T06:32:57.485Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;hr&gt;
-&lt;h1 id=&quot;SpringBoot-3-LangChain4j-1-10-0-的医疗-AI-助手实战&quot;&gt;&lt;a href=&quot;#SpringBoot-3-LangChain4j-1-10-0-的医疗-AI-助手实战&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="技术实践" scheme="https://pinkfufu.github.io/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/"/>
-    
-    
-    <category term="LangChain4j" scheme="https://pinkfufu.github.io/tags/LangChain4j/"/>
-    
-    <category term="RAG" scheme="https://pinkfufu.github.io/tags/RAG/"/>
-    
-    <category term="Pinecone" scheme="https://pinkfufu.github.io/tags/Pinecone/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>视频下载器：基于 FastAPI + yt-dlp 的网页实现视频下载</title>
-    <link href="https://pinkfufu.github.io/2026/03/10/shi-pin-xia-zai-qi/"/>
-    <id>https://pinkfufu.github.io/2026/03/10/shi-pin-xia-zai-qi/</id>
-    <published>2026-03-10T04:25:36.000Z</published>
-    <updated>2026-04-28T06:32:57.485Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;hr&gt;
-&lt;p&gt;通过 Python 的 &lt;strong&gt;FastAPI&lt;/strong&gt; 框架，将 &lt;code&gt;yt-dlp&lt;/code&gt; 的核心能力封装为 Web 服务，实现了从链接粘贴到本地保存的全流程自动化。&lt;/p&gt;
-&lt;h2 id=&quot;🚀-核心功能&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="技术实践" scheme="https://pinkfufu.github.io/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/"/>
-    
-    
-    <category term="FastAPI" scheme="https://pinkfufu.github.io/tags/FastAPI/"/>
-    
-    <category term="yt-dlp" scheme="https://pinkfufu.github.io/tags/yt-dlp/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>提问的智慧</title>
-    <link href="https://pinkfufu.github.io/2026/02/27/ti-wen-de-zhi-hui/"/>
-    <id>https://pinkfufu.github.io/2026/02/27/ti-wen-de-zhi-hui/</id>
-    <published>2026-02-27T07:49:37.000Z</published>
-    <updated>2026-04-28T06:32:57.485Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;hr&gt;
-&lt;h1 id=&quot;📝告别无效沟通：每个开发者都该刻入-DNA-的提问艺术&quot;&gt;&lt;a href=&quot;#📝告别无效沟通：每个开发者都该刻入-DNA-的提问艺术&quot; class=&quot;headerlink&quot; title=&quot;📝告别无效沟通：每个开发者都该刻入 DNA</summary>
-        
-      
-    
-    
-    
-    <category term="读后感" scheme="https://pinkfufu.github.io/categories/%E8%AF%BB%E5%90%8E%E6%84%9F/"/>
-    
-    
-    <category term="如何提问" scheme="https://pinkfufu.github.io/tags/%E5%A6%82%E4%BD%95%E6%8F%90%E9%97%AE/"/>
-    
-  </entry>
-  
-  <entry>
     <title>初始化</title>
     <link href="https://pinkfufu.github.io/2026/01/27/chu-shi-hua/"/>
     <id>https://pinkfufu.github.io/2026/01/27/chu-shi-hua/</id>
     <published>2026-01-27T17:11:16.000Z</published>
-    <updated>2026-04-28T06:32:57.485Z</updated>
+    <updated>2026-05-03T03:18:26.355Z</updated>
     
     
       
