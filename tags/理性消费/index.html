@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="归档, Miku Index, Java开发, SpringBoot, 智能体">
+    <meta name="keywords" content="标签: 理性消费, Miku Index, Java开发, SpringBoot, 智能体">
     <meta name="description" content="涵盖 Java, SpringBoot 与 AI 探索。">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>归档 | Miku Index</title>
+    <title>标签: 理性消费 | Miku Index</title>
     <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="https://cdn.jsdelivr.net/gh/pinkfufu/pinkfufu-img/Blog/20260129020602415.ico">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -301,299 +301,103 @@
 <main class="content">
 
     
-    <div class="container archive-calendar">
+
+<div id="tags" class="container chip-container">
     <div class="card">
-        <div id="post-calendar" class="card-content" style="height: 220px;"></div>
+        <div class="card-content">
+            <div class="tag-title center-align">
+                <i class="fas fa-tags"></i>&nbsp;&nbsp;文章标签
+            </div>
+            <div class="tag-chips">
+                
+                
+                <a href="/tags/%E6%9C%AC%E7%AB%99/" title="本站: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="本站" style="background-color: #F9EBEA;">本站
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E5%AF%86%E9%92%A5/" title="密钥: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="密钥" style="background-color: #F5EEF8;">密钥
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/" title="生活感悟: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="生活感悟" style="background-color: #D5F5E3;">生活感悟
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E7%90%86%E6%80%A7%E6%B6%88%E8%B4%B9/" title="理性消费: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-active "
+                            data-tagname="理性消费" style="background-color: #E8F8F5;">理性消费
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E8%B4%AD%E8%BD%A6%E7%B2%BE%E7%AE%97/" title="购车精算: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="购车精算" style="background-color: #FEF9E7;">购车精算
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+            </div>
+        </div>
     </div>
 </div>
 
-<script type="text/javascript" src="/libs/echarts/echarts.min.js"></script>
-<script type="text/javascript">
-    let myChart = echarts.init(document.getElementById('post-calendar'));
-
     
 
-    let option = {
-        title: {
-            top: 0,
-            text: '文章日历',
-            left: 'center',
-            textStyle: { 
-                color: '#39C5BB', // 标题改用初音主色
-                fontWeight: 'bold'
-            }
-        },
-        tooltip: {
-            padding: 10,
-            backgroundColor: 'rgba(57, 197, 187, 0.9)', // Miku色半透明背景
-            borderColor: '#fff',
-            borderWidth: 1,
-            textStyle: { color: '#fff' },
-            formatter: function (obj) {
-                var value = obj.value;
-                return '<div style="font-size: 14px;">' + value[0] + '：' + value[1] + ' 篇文章</div>';
-            }
-        },
-        visualMap: {
-            show: true,
-            showLabel: true,
-            categories: [0, 1, 2, 3, 4],
-            calculable: true,
-            inRange: {
-                symbol: 'rect',
-                // --- Miku 初音未来 5 阶渐变色 ---
-                // 1. 底色(灰白) 2. 浅葱 3. 标准葱 4. 深葱 5. 暗青
-                color: ['#f0f4f4', '#B2EBF2', '#39C5BB', '#0097A7', '#006064']
-            },
-            itemWidth: 12,
-            itemHeight: 12,
-            orient: 'horizontal',
-            left: 'center',
-            bottom: 0
-        },
-        calendar: [{
-            left: 'center',
-            range: "2026", 
-            cellSize: [13, 13],
-            splitLine: { show: false },
-            itemStyle: {
-                color: '#f0f4f4', // 默认格子颜色
-                borderColor: '#fff',
-                borderWidth: 2
-            },
-            yearLabel: { show: false },
-            monthLabel: {
-                nameMap: 'cn',
-                fontSize: 11,
-                color: '#666'
-            },
-            dayLabel: {
-                formatter: '{start}  1st',
-                nameMap: 'cn',
-                fontSize: 11,
-                color: '#666'
-            }
-        }],
-        series: [{
-            type: 'heatmap',
-            coordinateSystem: 'calendar',
-            calendarIndex: 0,
-            data: [["2026-01-01", 0], ["2026-01-02", 0], ["2026-01-03", 0], ["2026-01-04", 0], ["2026-01-05", 0], ["2026-01-06", 0], ["2026-01-07", 0], ["2026-01-08", 0], ["2026-01-09", 0], ["2026-01-10", 0], ["2026-01-11", 0], ["2026-01-12", 0], ["2026-01-13", 0], ["2026-01-14", 0], ["2026-01-15", 0], ["2026-01-16", 0], ["2026-01-17", 0], ["2026-01-18", 0], ["2026-01-19", 0], ["2026-01-20", 0], ["2026-01-21", 0], ["2026-01-22", 0], ["2026-01-23", 0], ["2026-01-24", 0], ["2026-01-25", 0], ["2026-01-26", 0], ["2026-01-27", 0], ["2026-01-28", 1], ["2026-01-29", 0], ["2026-01-30", 0], ["2026-01-31", 0], ["2026-02-01", 0], ["2026-02-02", 0], ["2026-02-03", 0], ["2026-02-04", 0], ["2026-02-05", 0], ["2026-02-06", 0], ["2026-02-07", 0], ["2026-02-08", 0], ["2026-02-09", 0], ["2026-02-10", 0], ["2026-02-11", 0], ["2026-02-12", 0], ["2026-02-13", 0], ["2026-02-14", 0], ["2026-02-15", 0], ["2026-02-16", 0], ["2026-02-17", 0], ["2026-02-18", 0], ["2026-02-19", 0], ["2026-02-20", 0], ["2026-02-21", 0], ["2026-02-22", 0], ["2026-02-23", 0], ["2026-02-24", 0], ["2026-02-25", 0], ["2026-02-26", 0], ["2026-02-27", 0], ["2026-02-28", 0], ["2026-03-01", 0], ["2026-03-02", 0], ["2026-03-03", 0], ["2026-03-04", 0], ["2026-03-05", 0], ["2026-03-06", 0], ["2026-03-07", 0], ["2026-03-08", 0], ["2026-03-09", 0], ["2026-03-10", 0], ["2026-03-11", 0], ["2026-03-12", 0], ["2026-03-13", 0], ["2026-03-14", 0], ["2026-03-15", 0], ["2026-03-16", 0], ["2026-03-17", 0], ["2026-03-18", 0], ["2026-03-19", 0], ["2026-03-20", 0], ["2026-03-21", 0], ["2026-03-22", 0], ["2026-03-23", 0], ["2026-03-24", 0], ["2026-03-25", 0], ["2026-03-26", 0], ["2026-03-27", 0], ["2026-03-28", 0], ["2026-03-29", 0], ["2026-03-30", 0], ["2026-03-31", 0], ["2026-04-01", 0], ["2026-04-02", 0], ["2026-04-03", 0], ["2026-04-04", 0], ["2026-04-05", 0], ["2026-04-06", 0], ["2026-04-07", 0], ["2026-04-08", 0], ["2026-04-09", 0], ["2026-04-10", 0], ["2026-04-11", 0], ["2026-04-12", 0], ["2026-04-13", 0], ["2026-04-14", 0], ["2026-04-15", 0], ["2026-04-16", 0], ["2026-04-17", 0], ["2026-04-18", 0], ["2026-04-19", 0], ["2026-04-20", 0], ["2026-04-21", 0], ["2026-04-22", 0], ["2026-04-23", 0], ["2026-04-24", 0], ["2026-04-25", 1], ["2026-04-26", 0], ["2026-04-27", 0], ["2026-04-28", 0], ["2026-04-29", 0], ["2026-04-30", 0], ["2026-05-01", 0], ["2026-05-02", 0], ["2026-05-03", 0], ["2026-05-04", 0], ["2026-05-05", 1], ["2026-05-06", 0], ["2026-05-07", 0], ["2026-05-08", 0], ["2026-05-09", 0], ["2026-05-10", 0], ["2026-05-11", 0], ["2026-05-12", 0], ["2026-05-13", 0], ["2026-05-14", 0], ["2026-05-15", 0], ["2026-05-16", 0], ["2026-05-17", 0], ["2026-05-18", 0], ["2026-05-19", 0], ["2026-05-20", 0], ["2026-05-21", 0], ["2026-05-22", 0], ["2026-05-23", 0], ["2026-05-24", 0], ["2026-05-25", 0], ["2026-05-26", 0], ["2026-05-27", 0], ["2026-05-28", 0], ["2026-05-29", 0], ["2026-05-30", 0], ["2026-05-31", 0], ["2026-06-01", 0], ["2026-06-02", 0], ["2026-06-03", 0], ["2026-06-04", 0], ["2026-06-05", 0], ["2026-06-06", 0], ["2026-06-07", 0], ["2026-06-08", 0], ["2026-06-09", 0], ["2026-06-10", 0], ["2026-06-11", 0], ["2026-06-12", 0], ["2026-06-13", 0], ["2026-06-14", 0], ["2026-06-15", 0], ["2026-06-16", 0], ["2026-06-17", 0], ["2026-06-18", 0], ["2026-06-19", 0], ["2026-06-20", 0], ["2026-06-21", 0], ["2026-06-22", 0], ["2026-06-23", 0], ["2026-06-24", 0], ["2026-06-25", 0], ["2026-06-26", 0], ["2026-06-27", 0], ["2026-06-28", 0], ["2026-06-29", 0], ["2026-06-30", 0], ["2026-07-01", 0], ["2026-07-02", 0], ["2026-07-03", 0], ["2026-07-04", 0], ["2026-07-05", 0], ["2026-07-06", 0], ["2026-07-07", 0], ["2026-07-08", 0], ["2026-07-09", 0], ["2026-07-10", 0], ["2026-07-11", 0], ["2026-07-12", 0], ["2026-07-13", 0], ["2026-07-14", 0], ["2026-07-15", 0], ["2026-07-16", 0], ["2026-07-17", 0], ["2026-07-18", 0], ["2026-07-19", 0], ["2026-07-20", 0], ["2026-07-21", 0], ["2026-07-22", 0], ["2026-07-23", 0], ["2026-07-24", 0], ["2026-07-25", 0], ["2026-07-26", 0], ["2026-07-27", 0], ["2026-07-28", 0], ["2026-07-29", 0], ["2026-07-30", 0], ["2026-07-31", 0], ["2026-08-01", 0], ["2026-08-02", 0], ["2026-08-03", 0], ["2026-08-04", 0], ["2026-08-05", 0], ["2026-08-06", 0], ["2026-08-07", 0], ["2026-08-08", 0], ["2026-08-09", 0], ["2026-08-10", 0], ["2026-08-11", 0], ["2026-08-12", 0], ["2026-08-13", 0], ["2026-08-14", 0], ["2026-08-15", 0], ["2026-08-16", 0], ["2026-08-17", 0], ["2026-08-18", 0], ["2026-08-19", 0], ["2026-08-20", 0], ["2026-08-21", 0], ["2026-08-22", 0], ["2026-08-23", 0], ["2026-08-24", 0], ["2026-08-25", 0], ["2026-08-26", 0], ["2026-08-27", 0], ["2026-08-28", 0], ["2026-08-29", 0], ["2026-08-30", 0], ["2026-08-31", 0], ["2026-09-01", 0], ["2026-09-02", 0], ["2026-09-03", 0], ["2026-09-04", 0], ["2026-09-05", 0], ["2026-09-06", 0], ["2026-09-07", 0], ["2026-09-08", 0], ["2026-09-09", 0], ["2026-09-10", 0], ["2026-09-11", 0], ["2026-09-12", 0], ["2026-09-13", 0], ["2026-09-14", 0], ["2026-09-15", 0], ["2026-09-16", 0], ["2026-09-17", 0], ["2026-09-18", 0], ["2026-09-19", 0], ["2026-09-20", 0], ["2026-09-21", 0], ["2026-09-22", 0], ["2026-09-23", 0], ["2026-09-24", 0], ["2026-09-25", 0], ["2026-09-26", 0], ["2026-09-27", 0], ["2026-09-28", 0], ["2026-09-29", 0], ["2026-09-30", 0], ["2026-10-01", 0], ["2026-10-02", 0], ["2026-10-03", 0], ["2026-10-04", 0], ["2026-10-05", 0], ["2026-10-06", 0], ["2026-10-07", 0], ["2026-10-08", 0], ["2026-10-09", 0], ["2026-10-10", 0], ["2026-10-11", 0], ["2026-10-12", 0], ["2026-10-13", 0], ["2026-10-14", 0], ["2026-10-15", 0], ["2026-10-16", 0], ["2026-10-17", 0], ["2026-10-18", 0], ["2026-10-19", 0], ["2026-10-20", 0], ["2026-10-21", 0], ["2026-10-22", 0], ["2026-10-23", 0], ["2026-10-24", 0], ["2026-10-25", 0], ["2026-10-26", 0], ["2026-10-27", 0], ["2026-10-28", 0], ["2026-10-29", 0], ["2026-10-30", 0], ["2026-10-31", 0], ["2026-11-01", 0], ["2026-11-02", 0], ["2026-11-03", 0], ["2026-11-04", 0], ["2026-11-05", 0], ["2026-11-06", 0], ["2026-11-07", 0], ["2026-11-08", 0], ["2026-11-09", 0], ["2026-11-10", 0], ["2026-11-11", 0], ["2026-11-12", 0], ["2026-11-13", 0], ["2026-11-14", 0], ["2026-11-15", 0], ["2026-11-16", 0], ["2026-11-17", 0], ["2026-11-18", 0], ["2026-11-19", 0], ["2026-11-20", 0], ["2026-11-21", 0], ["2026-11-22", 0], ["2026-11-23", 0], ["2026-11-24", 0], ["2026-11-25", 0], ["2026-11-26", 0], ["2026-11-27", 0], ["2026-11-28", 0], ["2026-11-29", 0], ["2026-11-30", 0], ["2026-12-01", 0], ["2026-12-02", 0], ["2026-12-03", 0], ["2026-12-04", 0], ["2026-12-05", 0], ["2026-12-06", 0], ["2026-12-07", 0], ["2026-12-08", 0], ["2026-12-09", 0], ["2026-12-10", 0], ["2026-12-11", 0], ["2026-12-12", 0], ["2026-12-13", 0], ["2026-12-14", 0], ["2026-12-15", 0], ["2026-12-16", 0], ["2026-12-17", 0], ["2026-12-18", 0], ["2026-12-19", 0], ["2026-12-20", 0], ["2026-12-21", 0], ["2026-12-22", 0], ["2026-12-23", 0], ["2026-12-24", 0], ["2026-12-25", 0], ["2026-12-26", 0], ["2026-12-27", 0], ["2026-12-28", 0], ["2026-12-29", 0], ["2026-12-30", 0], ["2026-12-31", 0]],
-            // 给色块加一点点圆角，增加现代感
-            itemStyle: {
-                borderRadius: 2
-            }
-        }]
-    };
-
-    myChart.setOption(option);
-</script>
-    
-
-    
-
-    <div id="cd-timeline" class="container">
-        
-        <div class="cd-timeline-block">
-
+    <article id="articles" class="container articles">
+        <div class="row tags-posts">
             
             
-            
-            <div class="cd-timeline-img year" data-aos="zoom-in-up">
-                <a href="/archives/2026">2026</a>
-            </div>
-            
-
-            
-            
-            
-            <div class="cd-timeline-img month" data-aos="zoom-in-up">
-                <a href="/archives/2026/05">05</a>
-            </div>
-            
-
-            
-            <div class="cd-timeline-img day" data-aos="zoom-in-up">
-                <span>05</span>
-            </div>
-            <article class="cd-timeline-content" data-aos="fade-up">
-                <div class="article col s12 m6">
-                    <div class="card">
-                        <a href="/2026/05/05/xiang-mai-che/">
-                            <div class="card-image">
-                                
-                                <img src="https://cdn.jsdelivr.net/gh/pinkfufu/pinkfufu-img/Blog/20260505160537366.webp" class="responsive-img" alt="想买车？">
-                                
-                                <span class="card-title">想买车？</span>
-                            </div>
-                        </a>
-                        <div class="card-content article-content">
-                            <div class="summary block-with-text">
-                                
-                                    先算笔账吧
-                                
-                            </div>
-                            <div class="publish-info">
-                                <span class="publish-date">
-                                    <i class="far fa-clock fa-fw icon-date"></i>2026-05-05
-                                </span>
-                                <span class="publish-author">
-                                    
-                                    <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                    
-                                    <a href="/categories/%E9%9A%8F%E7%AC%94/" class="post-category">
-                                    随笔
-                                    </a>
-                                    
-                                    
-                                </span>
-                            </div>
+            <div class="article tag-post col s12 m6 l4" data-tags="生活感悟, 理性消费, 购车精算" data-aos="fade-up">
+                <div class="card">
+                    <a href="/2026/05/05/xiang-mai-che/">
+                        <div class="card-image tag-image">
+                            
+                            <img src="https://cdn.jsdelivr.net/gh/pinkfufu/pinkfufu-img/Blog/20260505160537366.webp" class="responsive-img" alt="想买车？">
+                            
+                            <span class="card-title">想买车？</span>
                         </div>
-
-                        
-                        <div class="card-action article-tags">
-                            
-                            <a href="/tags/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/"><span class="chip bg-color">生活感悟</span></a>
-                            
-                            <a href="/tags/%E7%90%86%E6%80%A7%E6%B6%88%E8%B4%B9/"><span class="chip bg-color">理性消费</span></a>
-                            
-                            <a href="/tags/%E8%B4%AD%E8%BD%A6%E7%B2%BE%E7%AE%97/"><span class="chip bg-color">购车精算</span></a>
-                            
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2026-05-05
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E9%9A%8F%E7%AC%94/" class="post-category">
+                                随笔
+                                </a>
+                                
+                                
+                            </span>
                         </div>
-                        
                     </div>
                 </div>
-            </article>
+            </div>
+            
         </div>
-        
-        <div class="cd-timeline-block">
-
-            
-            
-
-            
-            
-            
-            <div class="cd-timeline-img month" data-aos="zoom-in-up">
-                <a href="/archives/2026/04">04</a>
-            </div>
-            
-
-            
-            <div class="cd-timeline-img day" data-aos="zoom-in-up">
-                <span>25</span>
-            </div>
-            <article class="cd-timeline-content" data-aos="fade-up">
-                <div class="article col s12 m6">
-                    <div class="card">
-                        <a href="/2026/04/24/miao-miao-ri-ji/">
-                            <div class="card-image">
-                                
-                                <img src="https://cdn.jsdelivr.net/gh/pinkfufu/pinkfufu-img/Blog/20260425001213692.webp" class="responsive-img" alt="喵喵日记：记录一些日常">
-                                
-                                <span class="card-title">喵喵日记：记录一些日常</span>
-                            </div>
-                        </a>
-                        <div class="card-content article-content">
-                            <div class="summary block-with-text">
-                                
-                                    记录一些日常
-                                
-                            </div>
-                            <div class="publish-info">
-                                <span class="publish-date">
-                                    <i class="far fa-clock fa-fw icon-date"></i>2026-04-25
-                                </span>
-                                <span class="publish-author">
-                                    
-                                    <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                    
-                                    <a href="/categories/%E5%B0%8F%E8%AE%B0/" class="post-category">
-                                    小记
-                                    </a>
-                                    
-                                    
-                                </span>
-                            </div>
-                        </div>
-
-                        
-                        <div class="card-action article-tags">
-                            
-                            <a href="/tags/%E5%AF%86%E9%92%A5/"><span class="chip bg-color">密钥</span></a>
-                            
-                        </div>
-                        
-                    </div>
-                </div>
-            </article>
-        </div>
-        
-        <div class="cd-timeline-block">
-
-            
-            
-
-            
-            
-            
-            <div class="cd-timeline-img month" data-aos="zoom-in-up">
-                <a href="/archives/2026/01">01</a>
-            </div>
-            
-
-            
-            <div class="cd-timeline-img day" data-aos="zoom-in-up">
-                <span>28</span>
-            </div>
-            <article class="cd-timeline-content" data-aos="fade-up">
-                <div class="article col s12 m6">
-                    <div class="card">
-                        <a href="/2026/01/27/chu-shi-hua/">
-                            <div class="card-image">
-                                
-                                <img src="https://cdn.jsdelivr.net/gh/pinkfufu/pinkfufu-img/Blog/20260321205736986.webp" class="responsive-img" alt="初始化">
-                                
-                                <span class="card-title">初始化</span>
-                            </div>
-                        </a>
-                        <div class="card-content article-content">
-                            <div class="summary block-with-text">
-                                
-                                    访问须知
-                                
-                            </div>
-                            <div class="publish-info">
-                                <span class="publish-date">
-                                    <i class="far fa-clock fa-fw icon-date"></i>2026-01-28
-                                </span>
-                                <span class="publish-author">
-                                    
-                                    <i class="fas fa-bookmark fa-fw icon-category"></i>
-                                    
-                                    <a href="/categories/%E6%9C%AC%E7%AB%99%E4%BB%8B%E7%BB%8D/" class="post-category">
-                                    本站介绍
-                                    </a>
-                                    
-                                    
-                                </span>
-                            </div>
-                        </div>
-
-                        
-                        <div class="card-action article-tags">
-                            
-                            <a href="/tags/%E6%9C%AC%E7%AB%99/"><span class="chip bg-color">本站</span></a>
-                            
-                        </div>
-                        
-                    </div>
-                </div>
-            </article>
-        </div>
-        
-    </div>
-
+    </article>
 </main>
 
 
